@@ -1,31 +1,31 @@
-# Data-Analysis-project-on-Nykaa-using-Web-Scrapping-and-EDA
-Conducted an end-to-end Data Analysis project on Nykaa product data using Web Scraping and Exploratory Data Analysis (EDA). Extracted, cleaned, and analyzed product data to uncover insights related to pricing trends, discounts, customer engagement, and category performance using Python and visualization techniques.
-
-## Nykaa Data Analysis using Web Scraping & EDA
+# Nykaa Data Analysis using Web Scraping , EDA and MySQL
 
 #### Project Overview
 
-This project focuses on collecting and analyzing product data from the Nykaa website using Web Scraping and Exploratory Data Analysis (EDA) techniques.
-The main objective of this project is to extract useful business insights from beauty and cosmetic product data such as pricing, discounts, ratings, product categories, and brands.
+This project focuses on collecting, cleaning, storing, and analyzing product data from Nykaa using Web Scraping, Exploratory Data Analysis (EDA), and MySQL.
+
+The main objective of this project is to extract meaningful business insights from beauty and cosmetic product data such as pricing, discounts, ratings, brands, and product categories.
 
 #### The project includes:
 
 Web Scraping of Nykaa product data
 Data Cleaning & Preprocessing
 Exploratory Data Analysis (EDA)
+MySQL Database Design & SQL Analysis
 Data Visualization
-Business Insights Generation
+Business Insight Generation
 
 #### Objectives
-
 Scrape product-related data from Nykaa
-Clean and preprocess raw data
-Perform detailed exploratory data analysis
-Identify trends and patterns in beauty product pricing and ratings
-Generate meaningful business insights using visualizations
+Store structured data in MySQL database
+Clean and preprocess raw scraped data
+Perform exploratory data analysis
+Analyze pricing, discounts, ratings, and brand performance
+Generate meaningful business insights using SQL and visualizations
 
 #### Tech Stack
 Python
+MySQL
 Pandas
 NumPy
 Matplotlib
@@ -42,66 +42,78 @@ Product Name
 Brand
 Product Category
 Original Price
-Discounted Price
+Offer Price
 Discount Percentage
 Ratings
-Reviews
 Product Type
-
-
-#### Exploratory Data Analysis Performed
-
-Univariate Analysis
-Distribution of product prices
-Rating analysis
-Brand frequency analysis
-Category-wise product count
-Bivariate Analysis
-Ratings vs Prices
-Discounts vs Ratings
-Category-wise average pricing
-Brand-wise product comparison
-Multivariate Analysis
-Correlation heatmaps
-Pairplots for numerical variables
-Category and brand comparison with pricing & ratings
-
-#### Key Insights
-
-Identified top product categories with highest product counts
-Analyzed pricing trends across different brands
-Observed relationship between discounts and customer ratings
-Found categories with highest average ratings
-Detected duplicate and missing values in the dataset
 
 #### Data Cleaning & Preprocessing
 
+Performed the following preprocessing tasks:
+
 Removed duplicate records
-Handled missing values
+Handled missing/null values
 Renamed and formatted columns
 Converted data types
-Removed special characters where necessary
+Removed unwanted special characters
+Standardized categorical values
+
+#### MySQL Database Design
+
+Created a structured relational database to store and analyze scraped Nykaa data.
+
+#### Exploratory Data Analysis (EDA)
+###### Univariate Analysis
+Product price distribution
+Ratings distribution
+Brand frequency analysis
+Category-wise product count
+###### Bivariate Analysis
+Ratings vs Price
+Discounts vs Ratings
+Brand-wise pricing comparison
+Category-wise average ratings
+###### Multivariate Analysis
+Correlation heatmaps
+Product category vs ratings vs price
+Brand and discount relationship analysis
+
+#### SQL Analysis Performed
+
+Some important SQL analyses include:
+
+Top-rated products
+Most expensive product categories
+Brand-wise average pricing
+Products with highest discounts
+Category-wise product distribution
+Average ratings by brand
+Duplicate product detection
+Price trend analysis
 
 #### Visualizations Used
-
 Bar Charts
-Count Plots
 Histograms
+Count Plots
 Heatmaps
-Box Plots
 Scatter Plots
+Box Plots
 Pie Charts
 
+#### Key Insights
+Identified top-performing beauty brands and product categories
+Analyzed relationship between discounts and customer ratings
+Found pricing trends across different product segments
+Detected duplicate and missing values affecting data quality
+Observed categories with highest customer engagement and ratings
 
 #### Future Improvements
-
-Build an interactive dashboard using Power BI 
+Build an interactive Power BI dashboard
+Deploy dashboard using Streamlit
 
 #### Author-
 
 Disha Sudhakar Suryawanshi
 
 Linkedin - https://www.linkedin.com/in/dishasuryawanshi0104/
-e
-Author
-Disha Suryawanshi
+
